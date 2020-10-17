@@ -1,0 +1,88 @@
+body {
+    background-color: #fcf7f8;
+    color: #333;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #233d4d;
+    color: #f1f1f1;
+    padding: 16px 24px 12px 10px;
+}
+
+.header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.main .List-title {
+    border-bottom: 1px solid #aaa;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+.main .List-title h2 {
+    margin: 0;
+    padding-left: 2px;
+}
+
+.add-player {
+    background-color: #3f5868;
+    color: #f2fff9;
+    border: 0;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.List{
+    width: 100%;
+    margin-top: 28px;
+    border-collapse: collapse;
+}
+
+.List thead {
+    background-color: #99c2ff;
+}
+
+.List thead th,
+.List tbody td {
+    padding: 8px;
+}
+
+.List tbody td {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.List tbody tr:nth-child(even) {
+    background-color: #ddda;
+}
+
+.List tbody td.table-actions button:last-child {
+    background-color: rgb(223, 106, 106);
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.List tbody td.table-actions button:first-child {
+    background-color: #8daad4;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.main, 
+.footer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #ccc;
+}
