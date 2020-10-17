@@ -62,16 +62,21 @@ body {
     background-color: #ddda;
 }
 
-.List tbody td.table-actions button:last-child {
-    background-color: rgb(223, 106, 106);
+.btn-edit {
+    background-color: #99c2ff;
+    color: #f2fff9;
     border: 0;
-    border-radius: 6px;
+    border-radius: 4px;
+    padding: 5px 7px;
     cursor: pointer;
 }
-.List tbody td.table-actions button:first-child {
-    background-color: #8daad4;
+
+.btn-delet {
+    background-color:  rgb(236, 136, 136);
+    color: #f2fff9;
     border: 0;
-    border-radius: 6px;
+    border-radius: 4px;
+    padding: 5px 7px;
     cursor: pointer;
 }
 
